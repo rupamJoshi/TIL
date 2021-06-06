@@ -1,0 +1,6 @@
+
+## $PATH variable
+When we use command `export PATH=$PATH:/opt/go/bin` it set the enviroment variable path and we can access `go` from anywhere. This will set the enviroment variable for single shell and if close it. You will have to set it again. 
+
+In order to set the it permanently you have to edit the `/etc/enviroment` file and appen the path to bin for go there and it persist after you close the shell or shut down the system.   
+
